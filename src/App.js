@@ -1,11 +1,13 @@
-import ButtonComponent from "./components/functional/button/button-component";
-import ImageComponent from "./components/functional/image/image-component";
-import OrderedList from "./components/functional/list/ordered/ordered-list";
-import UnorderedList from "./components/functional/list/unordered/unordered-list";
+// import ButtonComponent from "./components/functional/button/button-component";
+// import ImageComponent from "./components/functional/image/image-component";
+// import OrderedList from "./components/functional/list/ordered/ordered-list";
+// import UnorderedList from "./components/functional/list/unordered/unordered-list";
+import Card from "./components/functional/cards/card";
+import Form from "./components/functional/forms/form";
 function App() {
   return (
     <div>
-      <ButtonComponent />
+      {/* <ButtonComponent />
       <br></br>
       <br></br>
       <ImageComponent />
@@ -13,6 +15,10 @@ function App() {
       <OrderedList />
       <br></br>
       <UnorderedList />
+      <br></br> */}
+      <Card/>
+      <br></br>
+      <Form/>
     </div>
   );
 }
