@@ -4,8 +4,10 @@
 // import UnorderedList from "./components/functional/list/unordered/unordered-list";
 //import Card from "./components/functional/cards/card";
 //import Form from "./components/functional/forms/form";
-import Jsx from "./components/functional/jsx/jsx";
-import JsxFunctional from "./components/functional/jsx/jsxFunctional";
+//import Jsx from "./components/functional/jsx/jsx";
+//import JsxFunctional from "./components/functional/jsx/jsxFunctional";
+import ComponentA,{ComponentB,ComponentC} from "./components/functional/exports-imports/export";
+import Deepika,{ComponentB as Anu} from "./components/functional/exports-imports/export";
 
 function App() {
   return (
@@ -22,8 +24,13 @@ function App() {
       {/* <Card/>
       <br></br>
       <Form/> */}
-      <Jsx/>
-      <JsxFunctional/>
+      {/* <Jsx/>
+      <JsxFunctional/> */}
+      <ComponentA/>
+      <ComponentB/>
+      <ComponentC/>
+      <Deepika/>
+      <Anu/>
     </div>
   );
 }
