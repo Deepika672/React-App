@@ -2,8 +2,11 @@
 // import ImageComponent from "./components/functional/image/image-component";
 // import OrderedList from "./components/functional/list/ordered/ordered-list";
 // import UnorderedList from "./components/functional/list/unordered/unordered-list";
-import Card from "./components/functional/cards/card";
-import Form from "./components/functional/forms/form";
+//import Card from "./components/functional/cards/card";
+//import Form from "./components/functional/forms/form";
+import Jsx from "./components/functional/jsx/jsx";
+import JsxFunctional from "./components/functional/jsx/jsxFunctional";
+
 function App() {
   return (
     <div>
@@ -16,9 +19,11 @@ function App() {
       <br></br>
       <UnorderedList />
       <br></br> */}
-      <Card/>
+      {/* <Card/>
       <br></br>
-      <Form/>
+      <Form/> */}
+      <Jsx/>
+      <JsxFunctional/>
     </div>
   );
 }
