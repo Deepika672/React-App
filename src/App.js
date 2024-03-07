@@ -6,8 +6,9 @@
 //import Form from "./components/functional/forms/form";
 //import Jsx from "./components/functional/jsx/jsx";
 //import JsxFunctional from "./components/functional/jsx/jsxFunctional";
-import ComponentA,{ComponentB,ComponentC} from "./components/functional/exports-imports/export";
-import Deepika,{ComponentB as Anu} from "./components/functional/exports-imports/export";
+//import ComponentA,{ComponentB,ComponentC} from "./components/functional/exports-imports/export";
+//import Deepika,{ComponentB as Anu} from "./components/functional/exports-imports/export";
+import ConditionalRender from "./components/functional/conditional-render";
 
 function App() {
   return (
@@ -26,11 +27,12 @@ function App() {
       <Form/> */}
       {/* <Jsx/>
       <JsxFunctional/> */}
-      <ComponentA/>
+      {/* <ComponentA/>
       <ComponentB/>
       <ComponentC/>
       <Deepika/>
-      <Anu/>
+      <Anu/> */}
+      <ConditionalRender />
     </div>
   );
 }
