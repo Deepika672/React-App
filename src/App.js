@@ -9,7 +9,10 @@
 //import ComponentA,{ComponentB,ComponentC} from "./components/functional/exports-imports/export";
 //import Deepika,{ComponentB as Anu} from "./components/functional/exports-imports/export";
 //import ConditionalRender from "./components/functional/conditional-render";
-import PackingList from "./components/functional/conditional-render/tasks";
+//import PackingList from "./components/functional/conditional-render/tasks";
+//import {people} from "./components/functional/conditional-render/tasks1";
+//import { getImageUrl } from "./components/functional/conditional-render/ids";
+import List from "./components/functional/conditional-render/tasks1";
 
 function App() {
   return (
@@ -34,7 +37,8 @@ function App() {
       <Deepika/>
       <Anu/> */}
       {/* <ConditionalRender /> */}
-      <PackingList/>
+      {/* <PackingList/> */}
+      <List/>
     </div>
   );
 }
