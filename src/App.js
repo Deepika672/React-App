@@ -1,6 +1,7 @@
 // import ButtonComponent from "./components/functional/button/button-component";
 // import ImageComponent from "./components/functional/image/image-component";
-// import OrderedList from "./components/functional/list/ordered/ordered-list";
+//import ImageComponent from "./components/functional/image/image-component";
+//import OrderedList from "./components/functional/list/ordered/ordered-list";
 // import UnorderedList from "./components/functional/list/unordered/unordered-list";
 //import Card from "./components/functional/cards/card";
 //import Form from "./components/functional/forms/form";
@@ -12,7 +13,10 @@
 //import PackingList from "./components/functional/conditional-render/tasks";
 //import {people} from "./components/functional/conditional-render/tasks1";
 //import { getImageUrl } from "./components/functional/conditional-render/ids";
-import List from "./components/functional/conditional-render/tasks1";
+//import List from "./components/functional/conditional-render/tasks1";
+//import TodoList from "./components/functional/styles";
+//import "./App.css";
+import ContentPage from "./components/functional/styles/bootstrap/content";
 
 function App() {
   return (
@@ -38,7 +42,9 @@ function App() {
       <Anu/> */}
       {/* <ConditionalRender /> */}
       {/* <PackingList/> */}
-      <List/>
+      {/* <List/> */}
+      {/* <TodoList/> */}
+      <ContentPage/>
     </div>
   );
 }
