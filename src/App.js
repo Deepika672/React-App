@@ -16,7 +16,8 @@
 //import List from "./components/functional/conditional-render/tasks1";
 //import TodoList from "./components/functional/styles";
 //import "./App.css";
-import ContentPage from "./components/functional/styles/bootstrap/content";
+//import ContentPage from "./components/functional/styles/bootstrap/content";
+import Table from "./components/functional/Tasks/bootstrap/tables";
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
       {/* <PackingList/> */}
       {/* <List/> */}
       {/* <TodoList/> */}
-      <ContentPage/>
+      {/* <ContentPage/> */}
+      <Table/>
     </div>
   );
 }
