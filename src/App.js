@@ -17,7 +17,8 @@
 //import TodoList from "./components/functional/styles";
 //import "./App.css";
 //import ContentPage from "./components/functional/styles/bootstrap/content";
-import Table from "./components/functional/Tasks/bootstrap/tables";
+//import Table from "./components/functional/Tasks/bootstrap/tables";
+import Cards from "./components/functional/Tasks/bootstrap/card";
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
       {/* <List/> */}
       {/* <TodoList/> */}
       {/* <ContentPage/> */}
-      <Table/>
+      {/* <Table/> */}
+      <Cards/>
     </div>
   );
 }
