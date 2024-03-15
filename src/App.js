@@ -64,7 +64,7 @@ function App() {
       {/* <NavBar/>
       <NavBarColors/> */}
       {/* <ModalComponent/> */}
-      <PropComponent/>
+      {/* <PropComponent/> */}
       <PropCard/>
     </div>
   );
