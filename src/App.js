@@ -19,9 +19,9 @@
 //import ContentPage from "./components/functional/styles/bootstrap/content";
 //import Table from "./components/functional/Tasks/bootstrap/tables";
 //import Cards from "./components/functional/Tasks/bootstrap/card";
-import AccordionComponent from "./components/functional/styles/reactBootstrap/accordion";
-import CarouselComponent from "./components/functional/styles/reactBootstrap/carousel";
-
+// import AccordionComponent from "./components/functional/styles/reactBootstrap/accordion";
+// import CarouselComponent from "./components/functional/styles/reactBootstrap/carousel";
+import SpinnerComponent from "./components/functional/Tasks/reactBootstrap/spinners";
 function App() {
   return (
     <div>
@@ -52,7 +52,8 @@ function App() {
       {/* <Table/> */}
       {/* <Cards/> */}
       {/* <AccordionComponent/> */}
-      <CarouselComponent/>
+      {/* <CarouselComponent/> */}
+      <SpinnerComponent/>
     </div>
   );
 }
