@@ -16,13 +16,24 @@
 // };
 // export default ImageComponent;
 
-const ImageComponent = () => {
+//NavBar
+// const ImageComponent = () => {
+//   return (
+//     <img
+//       src="https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
+//       width={100}
+//       height={100}
+//     />
+//   );
+// };
+// export default ImageComponent;
+
+const ImageComponent = (prop) => {
+  const { imageURL, dimensions } = prop;
+  console.log(dimensions,"height");
+  console.log(imageURL, "imageURL FROM image component");
   return (
-    <img
-      src="https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
-      width={100}
-      height={100}
-    />
+    <img src={imageURL} width="100" height="100" style={{marginLeft:"30px",marginTop:"30px"}}/>
   );
-};
-export default ImageComponent;
+  };
+  export default ImageComponent;
