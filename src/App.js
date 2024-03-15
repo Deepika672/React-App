@@ -23,8 +23,9 @@
 // import CarouselComponent from "./components/functional/styles/reactBootstrap/carousel";
 //import SpinnerComponent from "./components/functional/Tasks/reactBootstrap/spinners";
 //import ToastComponent from "./components/functional/Tasks/reactBootstrap/toast";
-import NavBar from "./components/functional/Tasks/reactBootstrap/navbar";
-import { NavBarColors } from "./components/functional/Tasks/reactBootstrap/navbar";
+//import NavBar from "./components/functional/Tasks/reactBootstrap/navbar";
+//import { NavBarColors } from "./components/functional/Tasks/reactBootstrap/navbar";
+import ModalComponent from "./components/functional/Tasks/reactBootstrap/modal";
 function App() {
   return (
     <div>
@@ -58,8 +59,9 @@ function App() {
       {/* <CarouselComponent/> */}
       {/* <SpinnerComponent/> */}
       {/* <ToastComponent/> */}
-      <NavBar/>
-      <NavBarColors/>
+      {/* <NavBar/>
+      <NavBarColors/> */}
+      <ModalComponent/>
     </div>
   );
 }
