@@ -21,7 +21,8 @@
 //import Cards from "./components/functional/Tasks/bootstrap/card";
 // import AccordionComponent from "./components/functional/styles/reactBootstrap/accordion";
 // import CarouselComponent from "./components/functional/styles/reactBootstrap/carousel";
-import SpinnerComponent from "./components/functional/Tasks/reactBootstrap/spinners";
+//import SpinnerComponent from "./components/functional/Tasks/reactBootstrap/spinners";
+import ToastComponent from "./components/functional/Tasks/reactBootstrap/toast";
 function App() {
   return (
     <div>
@@ -53,7 +54,8 @@ function App() {
       {/* <Cards/> */}
       {/* <AccordionComponent/> */}
       {/* <CarouselComponent/> */}
-      <SpinnerComponent/>
+      {/* <SpinnerComponent/> */}
+      <ToastComponent/>
     </div>
   );
 }
