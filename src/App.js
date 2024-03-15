@@ -22,7 +22,9 @@
 // import AccordionComponent from "./components/functional/styles/reactBootstrap/accordion";
 // import CarouselComponent from "./components/functional/styles/reactBootstrap/carousel";
 //import SpinnerComponent from "./components/functional/Tasks/reactBootstrap/spinners";
-import ToastComponent from "./components/functional/Tasks/reactBootstrap/toast";
+//import ToastComponent from "./components/functional/Tasks/reactBootstrap/toast";
+import NavBar from "./components/functional/Tasks/reactBootstrap/navbar";
+import { NavBarColors } from "./components/functional/Tasks/reactBootstrap/navbar";
 function App() {
   return (
     <div>
@@ -55,7 +57,9 @@ function App() {
       {/* <AccordionComponent/> */}
       {/* <CarouselComponent/> */}
       {/* <SpinnerComponent/> */}
-      <ToastComponent/>
+      {/* <ToastComponent/> */}
+      <NavBar/>
+      <NavBarColors/>
     </div>
   );
 }

@@ -53,7 +53,7 @@ const ContentPage = () => {
             </div>
             <div className="col-sm-4">
                 <Card/>
-            </div>
+            </div>         
             <div className="col-sm-4">
                 <Card/>
             </div>
@@ -63,4 +63,3 @@ const ContentPage = () => {
     );
   };
   export default ContentPage;
-  
