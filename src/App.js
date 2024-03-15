@@ -18,7 +18,9 @@
 //import "./App.css";
 //import ContentPage from "./components/functional/styles/bootstrap/content";
 //import Table from "./components/functional/Tasks/bootstrap/tables";
-import Cards from "./components/functional/Tasks/bootstrap/card";
+//import Cards from "./components/functional/Tasks/bootstrap/card";
+import AccordionComponent from "./components/functional/styles/reactBootstrap/accordion";
+import CarouselComponent from "./components/functional/styles/reactBootstrap/carousel";
 
 function App() {
   return (
@@ -48,7 +50,9 @@ function App() {
       {/* <TodoList/> */}
       {/* <ContentPage/> */}
       {/* <Table/> */}
-      <Cards/>
+      {/* <Cards/> */}
+      {/* <AccordionComponent/> */}
+      <CarouselComponent/>
     </div>
   );
 }
