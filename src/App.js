@@ -26,8 +26,10 @@
 //import NavBar from "./components/functional/Tasks/reactBootstrap/navbar";
 //import { NavBarColors } from "./components/functional/Tasks/reactBootstrap/navbar";
 //import ModalComponent from "./components/functional/Tasks/reactBootstrap/modal";
-import PropComponent from "./components/functional/Tasks/reactBootstrap/props";
-import PropCard from "./components/functional/Tasks/reactBootstrap/props-card";
+//import PropComponent from "./components/functional/Tasks/reactBootstrap/props";
+//import PropCard from "./components/functional/Tasks/reactBootstrap/props-card";
+import Profile from "./components/functional/props/profile";
+import Prof from "./components/functional/children-prop/prof";
 function App() {
   return (
     <div>
@@ -65,9 +67,10 @@ function App() {
       <NavBarColors/> */}
       {/* <ModalComponent/> */}
       {/* <PropComponent/> */}
-      <PropCard/>
+      {/* <PropCard/> */}
+      <Profile/>
+      <Prof/>
     </div>
   );
-}
-
+};
 export default App;
