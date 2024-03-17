@@ -29,10 +29,9 @@
 //import PropComponent from "./components/functional/Tasks/reactBootstrap/props";
 //import PropCard from "./components/functional/Tasks/reactBootstrap/props-card";
 // import Profile from "./components/functional/props/profile";
-
-import Counter from "./components/class/state/counter";
-
+//import Counter from "./components/class/state/counter";
 // import Prof from "./components/functional/children-prop/prof";
+import EmployeeData from "./components/class/tasks/state/employe";
 function App() {
   return (
     <div>
@@ -73,7 +72,8 @@ function App() {
       {/* <PropCard/> */}
       {/* <Profile/>
       <Prof/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <EmployeeData/>
     </div>
   );
 };
