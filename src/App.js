@@ -32,7 +32,10 @@
 //import Counter from "./components/class/state/counter";
 // import Prof from "./components/functional/children-prop/prof";
 //import EmployeeData from "./components/class/tasks/state/employe";
-import UsersData from "./components/class/axios/users";
+
+import Circles from "./components/class/tasks/circles";
+
+//import UsersData from "./components/class/axios/users";
 function App() {
   return (
     <div>
@@ -75,7 +78,8 @@ function App() {
       <Prof/> */}
       {/* <Counter/> */}
       {/* <EmployeeData/> */}
-      <UsersData/>
+      {/* <UsersData/> */}
+      <Circles/>
     </div>
   );
 };
