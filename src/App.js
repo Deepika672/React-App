@@ -28,8 +28,11 @@
 //import ModalComponent from "./components/functional/Tasks/reactBootstrap/modal";
 //import PropComponent from "./components/functional/Tasks/reactBootstrap/props";
 //import PropCard from "./components/functional/Tasks/reactBootstrap/props-card";
-import Profile from "./components/functional/props/profile";
-import Prof from "./components/functional/children-prop/prof";
+// import Profile from "./components/functional/props/profile";
+
+import Counter from "./components/class/state/counter";
+
+// import Prof from "./components/functional/children-prop/prof";
 function App() {
   return (
     <div>
@@ -68,8 +71,9 @@ function App() {
       {/* <ModalComponent/> */}
       {/* <PropComponent/> */}
       {/* <PropCard/> */}
-      <Profile/>
-      <Prof/>
+      {/* <Profile/>
+      <Prof/> */}
+      <Counter/>
     </div>
   );
 };
