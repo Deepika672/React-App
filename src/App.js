@@ -34,7 +34,10 @@
 //import EmployeeData from "./components/class/tasks/state/employe";
 //import Circles from "./components/class/tasks/circles";
 //import UsersData from "./components/class/axios/users";
-import DataComponent from "./components/class/tasks/sorting";
+//import DataComponent from "./components/class/tasks/sorting";
+//import AudioSpinner from "./components/class/spinners/audio-spinner";
+//import DNASpinner from "./components/class/spinners/dna-spinner";
+import MountingPhase from "./components/class/lifecycle/mountingphase";
 function App() {
   return (
     <div>
@@ -79,7 +82,10 @@ function App() {
       {/* <EmployeeData/> */}
       {/* <UsersData/> */}
       {/* <Circles/> */}
-      <DataComponent/>
+      {/* <DataComponent/> */}
+      {/* <AudioSpinner/>
+      <DNASpinner/> */}
+      <MountingPhase/>
     </div>
   );
 };
