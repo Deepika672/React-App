@@ -32,8 +32,9 @@
 //import Counter from "./components/class/state/counter";
 // import Prof from "./components/functional/children-prop/prof";
 //import EmployeeData from "./components/class/tasks/state/employe";
+//import Circles from "./components/class/tasks/circles";
 
-import Circles from "./components/class/tasks/circles";
+import DataComponent from "./components/class/tasks/sorting";
 
 //import UsersData from "./components/class/axios/users";
 function App() {
@@ -79,7 +80,8 @@ function App() {
       {/* <Counter/> */}
       {/* <EmployeeData/> */}
       {/* <UsersData/> */}
-      <Circles/>
+      {/* <Circles/> */}
+      <DataComponent/>
     </div>
   );
 };
