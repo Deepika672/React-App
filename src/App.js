@@ -33,10 +33,8 @@
 // import Prof from "./components/functional/children-prop/prof";
 //import EmployeeData from "./components/class/tasks/state/employe";
 //import Circles from "./components/class/tasks/circles";
-
-import DataComponent from "./components/class/tasks/sorting";
-
 //import UsersData from "./components/class/axios/users";
+import DataComponent from "./components/class/tasks/sorting";
 function App() {
   return (
     <div>
