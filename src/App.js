@@ -85,7 +85,7 @@ function App() {
       {/* <DataComponent/> */}
       {/* <AudioSpinner/>
       <DNASpinner/> */}
-      <MountingPhase/>
+      <MountingPhase favColor="green"/>
     </div>
   );
 };
