@@ -37,7 +37,9 @@
 //import DataComponent from "./components/class/tasks/sorting";
 //import AudioSpinner from "./components/class/spinners/audio-spinner";
 //import DNASpinner from "./components/class/spinners/dna-spinner";
-import MountingPhase from "./components/class/lifecycle/mountingphase";
+//import MountingPhase from "./components/class/lifecycle/mountingphase";
+import UpdatingPhase from "./components/class/lifecycle/updatingphase";
+import Parent from "./components/class/lifecycle/unMountingPhase";
 function App() {
   return (
     <div>
@@ -85,7 +87,9 @@ function App() {
       {/* <DataComponent/> */}
       {/* <AudioSpinner/>
       <DNASpinner/> */}
-      <MountingPhase favColor="green"/>
+      {/* <MountingPhase favColor="green"/> */}
+      <UpdatingPhase/>
+      <Parent/>
     </div>
   );
 };
