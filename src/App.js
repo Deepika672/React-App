@@ -38,8 +38,9 @@
 //import AudioSpinner from "./components/class/spinners/audio-spinner";
 //import DNASpinner from "./components/class/spinners/dna-spinner";
 //import MountingPhase from "./components/class/lifecycle/mountingphase";
-import UpdatingPhase from "./components/class/lifecycle/updatingphase";
-import Parent from "./components/class/lifecycle/unMountingPhase";
+//import UpdatingPhase from "./components/class/lifecycle/updatingphase";
+//import Parent from "./components/class/lifecycle/unMountingPhase";
+import ParentComponent from "./components/class/purecomponents/parent";
 function App() {
   return (
     <div>
@@ -88,8 +89,9 @@ function App() {
       {/* <AudioSpinner/>
       <DNASpinner/> */}
       {/* <MountingPhase favColor="green"/> */}
-      <UpdatingPhase/>
-      <Parent/>
+      {/* <UpdatingPhase/>
+      <Parent/> */}
+      <ParentComponent/>
     </div>
   );
 };
