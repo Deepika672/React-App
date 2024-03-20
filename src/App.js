@@ -40,7 +40,8 @@
 //import MountingPhase from "./components/class/lifecycle/mountingphase";
 //import UpdatingPhase from "./components/class/lifecycle/updatingphase";
 //import Parent from "./components/class/lifecycle/unMountingPhase";
-import ParentComponent from "./components/class/purecomponents/parent";
+//import ParentComponent from "./components/class/purecomponents/parent";
+import CircleTask from "./components/class/circlestask/circles-task";
 function App() {
   return (
     <div>
@@ -91,7 +92,8 @@ function App() {
       {/* <MountingPhase favColor="green"/> */}
       {/* <UpdatingPhase/>
       <Parent/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <CircleTask/>
     </div>
   );
 };
