@@ -42,13 +42,17 @@
 //import Parent from "./components/class/lifecycle/unMountingPhase";
 //import ParentComponent from "./components/class/purecomponents/parent";
 //import CircleTask from "./components/class/circlestask/circles-task";
-import UseStateExample1 from "./components/functional/hooks/useStateEx1";
-import UseStateExample2 from "./components/functional/hooks/useStateEx2";
-import UseStateExample3 from "./components/functional/hooks/useStateEx3";
-import UseState1 from "./components/functional/Tasks/hooks-tasks/useState1";
-import UseStateExample4 from "./components/functional/Tasks/hooks-tasks/fruitdelete";
-import UseState2 from "./components/functional/Tasks/hooks-tasks/useState2";
-import UseState3 from "./components/functional/Tasks/hooks-tasks/useState3";
+// import UseStateExample1 from "./components/functional/hooks/useStateEx1";
+// import UseStateExample2 from "./components/functional/hooks/useStateEx2";
+// import UseStateExample3 from "./components/functional/hooks/useStateEx3";
+// import UseState1 from "./components/functional/Tasks/hooks-tasks/useState1";
+// import UseStateExample4 from "./components/functional/Tasks/hooks-tasks/fruitdelete";
+// import UseState2 from "./components/functional/Tasks/hooks-tasks/useState2";
+
+import ControlledComponent from "./components/functional/form/controlled";
+import UncontrolledComponent from "./components/functional/form/unControlled";
+
+// import UseState3 from "./components/functional/Tasks/hooks-tasks/useState3";
 function App() {
   return (
     <div>
@@ -101,13 +105,15 @@ function App() {
       <Parent/> */}
       {/* <ParentComponent/> */}
       {/* <CircleTask/> */}
-      <UseStateExample1/>
+      {/* <UseStateExample1/>
       <UseStateExample2/>
       <UseStateExample3/>
       <UseState1/>
       <UseState2/>
       <UseState3/>
-      <UseStateExample4/>
+      <UseStateExample4/> */}
+      {/* <UncontrolledComponent/> */}
+      <ControlledComponent/>
     </div>
   );
 };
