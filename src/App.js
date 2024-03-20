@@ -48,11 +48,9 @@
 // import UseState1 from "./components/functional/Tasks/hooks-tasks/useState1";
 // import UseStateExample4 from "./components/functional/Tasks/hooks-tasks/fruitdelete";
 // import UseState2 from "./components/functional/Tasks/hooks-tasks/useState2";
-
+// import UseState3 from "./components/functional/Tasks/hooks-tasks/useState3";
 import ControlledComponent from "./components/functional/form/controlled";
 import UncontrolledComponent from "./components/functional/form/unControlled";
-
-// import UseState3 from "./components/functional/Tasks/hooks-tasks/useState3";
 function App() {
   return (
     <div>
@@ -112,7 +110,7 @@ function App() {
       <UseState2/>
       <UseState3/>
       <UseStateExample4/> */}
-      {/* <UncontrolledComponent/> */}
+      <UncontrolledComponent/>
       <ControlledComponent/>
     </div>
   );
