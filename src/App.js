@@ -49,8 +49,11 @@
 // import UseStateExample4 from "./components/functional/Tasks/hooks-tasks/fruitdelete";
 // import UseState2 from "./components/functional/Tasks/hooks-tasks/useState2";
 // import UseState3 from "./components/functional/Tasks/hooks-tasks/useState3";
-import ControlledComponent from "./components/functional/form/controlled";
-import UncontrolledComponent from "./components/functional/form/unControlled";
+//import ControlledComponent from "./components/functional/form/controlled";
+//import UncontrolledComponent from "./components/functional/form/unControlled";
+import UseEffectEx1 from "./components/functional/Tasks/hooks-tasks/useEffect/useEffectEx1";
+import UseEffectEx2 from "./components/functional/Tasks/hooks-tasks/useEffect/useEffectEx2";
+import UseEffectEx3 from "./components/functional/Tasks/hooks-tasks/useEffect/useEffectEx3";
 function App() {
   return (
     <div>
@@ -110,8 +113,11 @@ function App() {
       <UseState2/>
       <UseState3/>
       <UseStateExample4/> */}
-      <UncontrolledComponent/>
-      <ControlledComponent/>
+      {/* <UncontrolledComponent/>
+      <ControlledComponent/> */}
+      <UseEffectEx1/>
+      <UseEffectEx2/>
+      <UseEffectEx3/>
     </div>
   );
 };
