@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import React from "react";
-import DNASpinner from "../../../../class/spinners/dna-spinner"
+import DNASpinner from "../../../class/spinners/dna-spinner"
 const UseEffectEx2 = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
