@@ -1,44 +1,46 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { MessageInformation } from "../../../navigation/navigation";
 
 const ControlledComponent = () => {
   const [username, setUsername] = useState("");
   const [userNameError, setUserUserError] = useState("");
+  const { changeLogin } = useContext(MessageInformation);
+
   const userNameHandler = (event) => {
     const username = event.target.value;
     setUsername(username);
     if (username.length > 15) {
-      // alert("user name must be less than 5 characters")
       setUserUserError("username must be less than 5 characters");
     } else {
       setUserUserError("");
-      let userInformation = {
-        username: username,
-      };
-      console.log(userInformation);
     }
-    console.log("User Typing");
   };
 
-  const loginApi =()=>{
-    fetch('https://dummyjson.com/auth/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-            // 'kminchelle'
-          
-          username:username ,
-          password: '0lelplR',
-          // expiresInMins: 60, // optional
-        })
+  const loginApi = () => {
+    fetch("https://dummyjson.com/auth/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        username: username,
+        password: "0lelplR",
+      }),
+    })
+      .then((res) => res.json())
+      .then((response) => {
+        if (response.status === 200) {
+          changeLogin();
+        }
       })
-      .then(res => res.json())
-      .then((response)=>console.log(response));
-                  
- }
+      .catch((error) => {
+        console.error("Error:", error);
+      });
+  };
+
   const submitHandler = (event) => {
     event.preventDefault();
-    loginApi()
+    loginApi();
   };
+
   return (
     <>
       <form onSubmit={submitHandler}>
@@ -85,8 +87,8 @@ const ControlledComponent = () => {
           Submit
         </button>
       </form>
-      ;
     </>
   );
 };
+
 export default ControlledComponent;
