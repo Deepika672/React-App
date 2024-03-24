@@ -12,7 +12,7 @@ import LoginScreen from "../pages/preroutes/login";
 export const MessageInformation = createContext();
 const NavigationStack = () => {
   const [message, setMessage] = useState("Good morning");
-  const [login, setLogin] = useState(false);
+  const [login, setLogin] = useState(true);
 
   const changeMessage = () => {
     setMessage("Good Evening");
