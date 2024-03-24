@@ -3,6 +3,8 @@ import Navbar from '../components/functional/navbar/navbar'
 import { useContext } from 'react'
 import { MessageInformation } from '../navigation/navigation'
 import UseMemo from '../components/functional/hooks/memorization/useMemo'
+import ParentComponentMemo from '../components/functional/memo/parent'
+import ParentCallback from '../components/functional/hooks/useCallback/parentCallback'
 
 function ContactScreen() {
   const {message}=useContext(MessageInformation)
@@ -10,7 +12,9 @@ function ContactScreen() {
     <div>
       <Navbar/>
       <h2>{message}</h2>
-      <UseMemo/>
+      {/* <UseMemo/> */}
+      <ParentComponentMemo/>
+      <ParentCallback/>
     </div>
     
   )
