@@ -3,19 +3,22 @@ import React, { useEffect, useState } from "react";
 import DNASpinner from "../../../class/spinners/dna-spinner"
 import "./index.css"; // Ensure you create this CSS file in the same directory
 import { Link } from "react-router-dom";
+import useAxios from "../customHook/useAxios";
 
 const UseEffectEx2 = () => {
-  const [products, setProducts] = useState([]);
+  const url="https://fakestoreapi.com/products"
+  const[products]=useAxios(url)
+  // const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-    axios.get("https://fakestoreapi.com/products").then((response) => {
-      if (response.status === 200) {
-        setProducts(response.data);
-      } else {
-        alert("Something went wrong");
-      }
-    });
-  }, []);
+  // useEffect(() => {
+  //   axios.get("https://fakestoreapi.com/products").then((response) => {
+  //     if (response.status === 200) {
+  //       setProducts(response.data);
+  //     } else {
+  //       alert("Something went wrong");
+  //     }
+  //   });
+  // }, []);
 
   return (
     <>
